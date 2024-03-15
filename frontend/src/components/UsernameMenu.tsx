@@ -18,7 +18,7 @@ const UsernameMenu =()=>{
         <DropdownMenuContent>
 
             <DropdownMenuItem>
-            <Link to="/user-profile" className="font-bbld hover:text-orange-500">
+            <Link to="/user-profile" className="font-bold hover:text-orange-500">
                     User Profile
                 </Link>
             </DropdownMenuItem>
