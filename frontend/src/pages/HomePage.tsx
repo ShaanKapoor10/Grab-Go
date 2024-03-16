@@ -1,5 +1,5 @@
 import landingImage from "../assets/landing.png";
-import appDownloadImage from "../assets/appDownload.png";
+import appDownloadImage from "../assets/foodp.jpeg";
 
 const HomePage = () => {
     return(
@@ -11,13 +11,13 @@ const HomePage = () => {
                 <span className="text-x1">Food is just a click away!</span>
             </div>
             <div className="grid md:grid-cols-2 gap-5">
-                <img src={landingImage}/>
+            <img src={landingImage}/>
                 <div className="flex flex-col items-center justify-center gap-4 text-center">
                     <span className="font-bold text-3xl tracking-tighter">
                         Order takeaway even faster!
                     </span>
                     <span>
-                        Download the Grab&Go App for faster ordering and personalised recommendations 
+                        Visit the Grab&Go website for faster ordering and personalised recommendations 
                     </span>
                     <img src={appDownloadImage}/>
                 </div>
